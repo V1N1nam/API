@@ -78,7 +78,7 @@ A resposta será um array de objetos JSON, cada um representando uma promoção 
 ##### Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/seu-repositorio.git
+git clone https://github.com/V1N1nam/API
 cd seu-repositorio
 ```
 
