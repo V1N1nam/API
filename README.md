@@ -4,27 +4,32 @@ Uma API desenvolvida em Node.js que utiliza Puppeteer para realizar scraping de 
 
 # 🛠️ Tecnologias Utilizadas
 
- <span style="color: #FF69B4;">Node.js</span>: Ambiente de execução para JavaScript no servidor
+ Node.js: Ambiente de execução para JavaScript no servidor
 
- <span style="color: #FF69B4;">Express</span>: Framework para construção de APIs
+ Express: Framework para construção de APIs
 
- <span style="color: #FF69B4;">Puppeteer</span>: Biblioteca para controle do navegador Chrome, utilizada para scraping de dados
+ Puppeteer: Biblioteca para controle do navegador Chrome, utilizada para scraping de dados
 
- <span style="color: #FF69B4;">JavaScript</span>: Linguagem de programação utilizada no desenvolvimento
+ JavaScript: Linguagem de programação utilizada no desenvolvimento
 
 # 📁 Estrutura do Projeto
 
-<span style="color: green;">src/
+src/
+
 ├── controllers/
+
 │   └── promotionsController.js
+
 ├── routes/
+
 │   └── promotions.js
+
 ├── services/
 │   └── scraperService.js
-└── index.js</span>
-<span style="color: blue;">public/
+└── index.js
+public/
 ├── index.html
-└── script.js</span>
+└── script.js
 
 # 📡 Endpoints
 
@@ -42,9 +47,9 @@ curl "http://localhost:3000/api/promotions?search=notebook"
 
 A resposta será um array de objetos JSON, cada um representando uma promoção com as seguintes propriedades:
 
-- <span style="color: #FF69B4;">title</span>: O título do produto em promoção.
-- <span style="color: #FF69B4;">price</span>: O preço do produto em promoção.
-- <span style="color: #FF69B4;">link</span>: O link para a promoção.
+- title: O título do produto em promoção.
+- price: O preço do produto em promoção.
+- link: O link para a promoção.
 
 ##### Exemplo de Resposta:
 
