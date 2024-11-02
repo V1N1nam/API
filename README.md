@@ -25,10 +25,15 @@ src/
 │   └── promotions.js
 
 ├── services/
+
 │   └── scraperService.js
+
 └── index.js
+
 public/
+
 ├── index.html
+
 └── script.js
 
 # 📡 Endpoints
