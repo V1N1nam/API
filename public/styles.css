@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#promotions-list {
+    margin-top: 20px;
+}
+
+.promotion-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.promotion-item h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.promotion-item p {
+    margin: 5px 0;
+}
