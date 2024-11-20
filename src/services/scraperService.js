@@ -12,7 +12,7 @@ const fetchPromotions = async () => {
       return Array.from(document.querySelectorAll('.s-main-slot .s-result-item')).map(item => {
          const titleElement = item.querySelector('h2 .a-link-normal');
          const priceElement = item.querySelector('.a-price');
-         
+     
          // Captura apenas o texto do preço, removendo o símbolo da moeda, se necessário
          const priceText = priceElement ? priceElement.innerText : null;
          
